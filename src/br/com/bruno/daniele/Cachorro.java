@@ -15,7 +15,32 @@ public class Cachorro
 		direcao = 0;
 		
 	}
-	
+	// isso equivale a fazer variavel = objeto.x = objeto.getX()
+	public double getX() {
+		return x;
+	}
+    
+	// isso equivale a fazer objet.x = valor
+	public void setX(double x) {
+		this.x = x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public void setY(double y) {
+		this.y = y;
+	}
+
+	public float getDirecao() {
+		return direcao;
+	}
+
+	public void setDirecao(float direcao) {
+		this.direcao = direcao;
+	}
+
 	//Métodos que manipulam os atributos
 	public void anda(int quantidade)
 	{
