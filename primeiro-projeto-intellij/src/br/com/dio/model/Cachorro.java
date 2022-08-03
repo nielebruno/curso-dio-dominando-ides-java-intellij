@@ -62,11 +62,11 @@ public class Cachorro
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Cachorro{" +
                 "nome='" + nome + '\'' +
                 ", cor='" + cor + '\'' +
-                ", idade=" + idade +
-                '}';
+                ", idade=" + idade + "anos}";
     }
 }
